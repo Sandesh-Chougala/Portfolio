@@ -8,7 +8,7 @@ import {
   SiMongodb,
   SiPostman,
 } from 'react-icons/si';
-import { FaJava, FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaJava} from 'react-icons/fa';
 import '../styles/about.css';
 
 

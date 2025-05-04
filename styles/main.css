@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .dark {
+    background: #111;
+    color: #eee;
+  }
+  
+  .section {
+    padding: 80px 5%;
+    text-align: center;
+  }
+
+  /* Global container layout */
+   .section {
+    padding: 80px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .section h1,
+  .section h2,
+  .section p {
+    text-align: center;
+  }
+  
+  .section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #111;
+    transition: all 0.5s ease;
+  }
+  
+  body.dark-theme {
+    background-color: #111;
+    color: #f0f0f0;
+  }
+  
+  body.dark-theme a,
+  body.dark-theme h1,
+  body.dark-theme h2,
+  body.dark-theme p {
+    color: #f0f0f0;
+  }
+  
+  body.dark-theme .btn {
+    background: linear-gradient(135deg, #333, #666);
+  }
+  
+  body.dark-theme .navbar {
+    background-color: #222;
+  }
+
+  body.dark-theme .about-section {
+    background-color: #1e1e2f;
+    color: #f0f0f0;
+  }
+  
+  body.dark-theme .about-text h2,
+  body.dark-theme .about-text h3,
+  body.dark-theme .social-media h3,
+  body.dark-theme .contact-section,
+  body.dark-theme .about-text p,
+  body.dark-theme .technical-skills h3,
+  body.dark-theme .education-section h4,
+  body.dark-theme .education-section h3 {
+    color: #f0f0f0;
+  }
+  
+  body.dark-theme .stat-card {
+    background-color: #2c2c3e;
+    border: 1px solid #444;
+  }
+  
+  body.dark-theme .stat-card span {
+    color: #ccc;
+  }
+  
+  body.dark-theme .education-item {
+    background-color: #2c2c3e;
+    border: 1px solid #444;
+  }
+  
+  body.dark-theme .skills-logos svg {
+    color: #ccc;
+  }
+  
+  body.dark-theme .skills-logos svg:hover {
+    color: #2ecc71;
+  }
+  
+
+.about-section,
+.about-text h2,
+.about-text h3,
+.about-text p,
+.technical-skills h3,
+.education-section h3,
+.stat-card,
+.about-stats,
+.stat-card span,
+.education-item,
+.skills-logos svg {
+  transition-delay: 0.05s;
+}
+
+/* Optional: smoother hover effect */
+.skills-logos svg:hover {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+  
+
+  .highlight{
+    color: rgb(21, 148, 226);
+  }
+  
+
+  @media (max-width: 768px) {
+    .section{
+      padding: 20px;
+    }
+
+  }
+  

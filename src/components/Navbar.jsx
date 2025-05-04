@@ -25,17 +25,7 @@ const Navbar = ({ onSectionChange }) => {
     setMenuOpen(false);
   };
 
-  const handleClickOutside = (e) => {
-    if (
-      menuOpen &&
-      menuRef.current &&
-      !menuRef.current.contains(e.target) &&
-      toggleRef.current &&
-      !toggleRef.current.contains(e.target)
-    ) {
-      setMenuOpen(false);
-    }
-  };
+
 
   return (
     <nav className="navbar">

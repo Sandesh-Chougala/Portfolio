@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef} from 'react';
 import '../styles/Navbar.css';
 import {
   FaHome,
@@ -36,11 +36,6 @@ const Navbar = ({ onSectionChange }) => {
       setMenuOpen(false);
     }
   };
-
-  useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [menuOpen]);
 
   return (
     <nav className="navbar">

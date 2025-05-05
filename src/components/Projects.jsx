@@ -22,7 +22,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio site to showcase my skills, projects, and contact details.",
     techStack: ["React.Js", "CSS"],
-    github: "#",
+    github: "https://github.com/Sandesh-Chougala/Portfolio",
     demo: "#",
     image: "https://wiztoonz.com/wp-content/uploads/2022/04/Blog-Post-Portfolio-1170x658.jpg",
   },

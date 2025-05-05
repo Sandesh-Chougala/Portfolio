@@ -1,3 +1,42 @@
+
+# step 1
+clone the repo 
+command -  git clone https://github.com/Sandesh-Chougala/Portfolio
+
+
+# step 2
+inside portfolio run
+command - npm install
+
+
+# step 3
+run deveoper server
+command - npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

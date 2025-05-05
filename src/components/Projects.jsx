@@ -11,7 +11,7 @@ const projects = [
     image: "https://t3.ftcdn.net/jpg/01/78/06/60/360_F_178066058_NqCDYgyLobiLEI0qzpC2hd6bN4eKhYOv.jpg",
   },
   {
-    title: "Attendance System using PHP",
+    title: "Attendance Managment System using PHP",
     description: "A responsive attendance managment system, That's convert complete digital",
     techStack: ["PHP", "CSS","SQL"],
     github: "#",

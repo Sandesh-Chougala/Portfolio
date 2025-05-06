@@ -6,7 +6,7 @@ const projects = [
     title: "Cakewala",
     description: "A modern bakery website showcasing products, gallery, and custom order options.",
     techStack: ["HTML", "CSS", "JavaScript"],
-    github: "#",
+    github: "https://github.com/Sandesh-Chougala/Cake_Wala",
     demo: "#",
     image: "https://t3.ftcdn.net/jpg/01/78/06/60/360_F_178066058_NqCDYgyLobiLEI0qzpC2hd6bN4eKhYOv.jpg",
   },

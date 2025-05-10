@@ -3,14 +3,6 @@ import '../styles/Projects.css';
 
 const projects = [
   {
-    title: "Cakewala",
-    description: "A modern bakery website showcasing products, gallery, and custom order options.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Sandesh-Chougala/Cake_Wala",
-    demo: "#",
-    image: "https://t3.ftcdn.net/jpg/01/78/06/60/360_F_178066058_NqCDYgyLobiLEI0qzpC2hd6bN4eKhYOv.jpg",
-  },
-  {
     title: "Attendance Managment System using PHP",
     description: "A responsive attendance managment system, That's convert complete digital",
     techStack: ["PHP", "CSS","SQL"],

@@ -3,7 +3,7 @@ import '../styles/Projects.css';
 
 const projects = [
   {
-    title: "Attendance Managment System using PHP",
+    title: "Attendance Managment Systemgit",
     description: "A responsive attendance managment system, That's convert complete digital",
     techStack: ["PHP", "CSS","SQL"],
     github: "#",

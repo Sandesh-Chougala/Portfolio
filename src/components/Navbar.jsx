@@ -1,4 +1,4 @@
-import React, { useState, useRef} from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import '../styles/Navbar.css';
 import {
   FaHome,
@@ -25,7 +25,22 @@ const Navbar = ({ onSectionChange }) => {
     setMenuOpen(false);
   };
 
+  // Close menu on outside click
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        toggleRef.current &&
+        !toggleRef.current.contains(event.target)
+      ) {
+        setMenuOpen(false);
+      }
+    };
 
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <nav className="navbar">
@@ -54,11 +69,10 @@ const Navbar = ({ onSectionChange }) => {
         <li onClick={() => handleSectionClick('contact')}>
           <FaEnvelope className="nav-icon" /> Contact
         </li>
-      </ul>
-
-      <button className="theme-toggle" onClick={toggleTheme}>
+        <button className="theme-toggle" onClick={toggleTheme}>
           {darkMode ? <FaSun /> : <FaMoon />}
         </button>
+      </ul>
     </nav>
   );
 };

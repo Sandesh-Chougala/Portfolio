@@ -3,14 +3,6 @@ import '../styles/Projects.css';
 
 const projects = [
   {
-    title: "Attendance Managment Systemgit",
-    description: "A responsive attendance managment system, That's convert complete digital",
-    techStack: ["PHP", "CSS","SQL"],
-    github: "#",
-    demo: "#",
-    image: "https://www.zimyo.com/wp-content/uploads/2020/08/Technologies-used-in-the-Attendance-management.jpg",
-  },
-  {
     title: "Portfolio Website",
     description: "A personal portfolio site to showcase my skills, projects, and contact details.",
     techStack: ["React.Js", "CSS"],

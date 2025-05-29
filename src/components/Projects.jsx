@@ -10,6 +10,14 @@ const projects = [
     demo: "#",
     image: "https://wiztoonz.com/wp-content/uploads/2022/04/Blog-Post-Portfolio-1170x658.jpg",
   },
+  {
+    title: "Endless Runner",
+    description: " a simple runner game. that's have leaderboard features.",
+    techStack: ["HTML ", "CSS","JavaScript"],
+    github: "https://github.com/Sandesh-Chougala/Portfolio",
+    demo: "#",
+    image: "https://wiztoonz.com/wp-content/uploads/2022/04/Blog-Post-Portfolio-1170x658.jpg",
+  },
 ];
 
 const Projects = () => {

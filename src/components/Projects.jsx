@@ -11,6 +11,14 @@ const projects = [
     image: "https://wiztoonz.com/wp-content/uploads/2022/04/Blog-Post-Portfolio-1170x658.jpg",
   },
   {
+    title: "GX GAME",
+    description: " a simple 2D game with lederboard feature.",
+    techStack: ["HTML ", "CSS","JavaScript"],
+    github: "https://github.com/Sandesh-Chougala/GX-Game",
+    demo: "http://gx-game-sandy.netlify.app/",
+    image: "https://c8.alamy.com/comp/2RKGPJ7/gx-letter-logo-design-initial-letters-gx-gamings-logo-icon-for-technology-companies-tech-letter-gx-minimal-logo-design-template-gx-letter-design-v-2RKGPJ7.jpg",
+  },
+  {
     title: "Endless Runner",
     description: " a simple runner game. that's have leaderboard features.",
     techStack: ["HTML ", "CSS","JavaScript"],

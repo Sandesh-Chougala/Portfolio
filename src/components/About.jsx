@@ -8,7 +8,7 @@ import {
   SiMongodb,
   SiPostman,
 } from 'react-icons/si';
-import { FaJava} from 'react-icons/fa';
+import { FaJava } from 'react-icons/fa';
 import '../styles/about.css';
 
 
@@ -32,11 +32,11 @@ const About = () => {
         {/* Project Stats */}
         <div className="about-stats">
           <div className="stat-card">
-            <h4>3</h4>
+            <h4>6</h4>
             <span>Main Projects</span>
           </div>
           <div className="stat-card">
-            <h4>2</h4>
+            <h4>4</h4>
             <span>Hosted Projects</span>
           </div>
         </div>

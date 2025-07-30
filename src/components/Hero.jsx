@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className="hero section">
       <div className="hero-wrapper">
-      <div className="hero-image">
+        <div className="hero-image">
           <img
             src="https://cdn.pixabay.com/photo/2024/05/02/09/16/web-development-8734249_640.png"
             alt="Developer Illustration"
@@ -25,8 +25,8 @@ const Hero = () => {
                 loop
                 cursor
                 cursorStyle="|"
-                typeSpeed={70}
-                deleteSpeed={50}
+                typeSpeed={90}
+                deleteSpeed={50} s
                 delaySpeed={1000}
               />
             </span>

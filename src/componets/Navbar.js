@@ -16,10 +16,18 @@ class Navbar extends React.Component {
             <img src="./assets/icons/menu-btn.png"></img>
           </button>
           <div className={`hide-links ${this.state.menuOpen ? "show" : ""}`}>
-            <a id="home">Home</a>
-            <a id="About">About</a>
-            <a id="portfolio">Portfolio</a>
-            <a id="contact">Contact</a>
+            <a id="home" href="#home">
+              Home
+            </a>
+            <a id="About" href="#About">
+              About
+            </a>
+            <a id="portfolio" href="#portfolio">
+              Portfolio
+            </a>
+            <a id="contact" href="#contact">
+              Contact
+            </a>
           </div>
         </div>
         <div className="nav-head">

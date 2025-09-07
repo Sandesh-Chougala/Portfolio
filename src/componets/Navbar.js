@@ -13,7 +13,7 @@ class Navbar extends React.Component {
       <div className="nav-bar">
         <div className="menu">
           <button id="show" onClick={this.toggleMenu}>
-            <img src="./assets/icons/menu-btn.png"></img>
+            <img src="./assets/icons/menu-btn.png" alt="Menu"></img>
           </button>
           <div className={`hide-links ${this.state.menuOpen ? "show" : ""}`}>
             <a id="home" href="#home">

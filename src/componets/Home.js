@@ -72,7 +72,7 @@ class Home extends React.Component {
               <img
                 src="./assets/my-photo.jpg"
                 className="my-img"
-                alt="My Photo"
+                alt="Profile"
               ></img>
             </div>
           </div>

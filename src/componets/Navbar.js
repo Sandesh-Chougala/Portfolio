@@ -31,7 +31,7 @@ class Navbar extends React.Component {
           </div>
         </div>
         <div className="nav-head">
-          <a>Mr.Sandesh</a>
+          <a href="#home">Mr.Sandesh</a>
         </div>
         <div className="nav-links">
           <a id="home" href="#home">

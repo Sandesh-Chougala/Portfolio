@@ -48,26 +48,30 @@ class Home extends React.Component {
             </div>
             <div className="socila">
               <a className="github" href="https://github.com/Sandesh-Chougala">
-                <img src="./assets/icons/github.svg"></img>
+                <img src="./assets/icons/github.svg" alt="GitHub"></img>
               </a>
               <a
                 className="linkdin"
                 href="https://www.linkedin.com/in/sandesh-chougala/"
               >
-                <img src="./assets/icons/linkdin.svg"></img>
+                <img src="./assets/icons/linkdin.svg" alt="LinkedIn"></img>
               </a>
               <a
                 className="linkdin"
                 href="https://www.instagram.com/mr___sandy____________"
               >
-                <img src="./assets/icons/instagram.svg"></img>
+                <img src="./assets/icons/instagram.svg" alt="Instagram"></img>
               </a>
             </div>
           </div>
 
           <div className="right">
             <div className="coding-image">
-              <img src="./assets/my-photo.jpg" className="my-img"></img>
+              <img
+                src="./assets/my-photo.jpg"
+                className="my-img"
+                alt="My Photo"
+              ></img>
             </div>
           </div>
         </div>

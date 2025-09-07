@@ -26,10 +26,18 @@ class Navbar extends React.Component {
           <a>Mr.Sandesh</a>
         </div>
         <div className="nav-links">
-          <a id="home">Home</a>
-          <a id="About">About</a>
-          <a id="portfolio">Portfolio</a>
-          <a id="contact">Contact</a>
+          <a id="home" href="#home">
+            Home
+          </a>
+          <a id="About" href="#About">
+            About
+          </a>
+          <a id="portfolio" href="#portfolio">
+            Portfolio
+          </a>
+          <a id="contact" href="#contact">
+            Contact
+          </a>
         </div>
       </div>
     );

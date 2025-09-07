@@ -40,10 +40,12 @@ class Home extends React.Component {
             </div>
             <div className="btns">
               <button className="hk">
-                Projects<img src="./assets/icons/redirect.png"></img>
+                Projects
+                <img src="./assets/icons/redirect.png" alt="Redirect"></img>
               </button>
               <button className="hk">
-                Contact Me<img src="./assets/icons/redirect.png"></img>
+                Contact Me
+                <img src="./assets/icons/redirect.png" alt="Redirect"></img>
               </button>
             </div>
             <div className="socila">

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.Main_page{
+    height: 775px;
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 60%;
+}
+.left h1{
+    color: white;
+    margin-top: 150px;
+    margin-left: 110px;
+    font-size: 50px;
+    transition: 0.3s;
+    font-weight: 600;
+    text-shadow: 0 0 2px white;
+}
+
+.left h2{
+    color: greenyellow;
+    margin-left: 110px;
+    font-size: 40px;
+    transition: 0.3s;
+    text-shadow: 0 0 15px greenyellow;
+}
+
+.left p{
+    color: white;
+    margin-left: 110px;
+    font-size: 18px;
+}
+.Typewriter{
+    color: white;
+    font-size: 24px;
+    transition: 0.3s;
+    text-shadow: 0 0 2px white;
+}
+.typing h3{
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.typing{
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+    display: flex;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 2px white;
+}
+
+.explore{
+    color: greenyellow;
+    margin-top: 40px;
+    margin-left: 110px;
+    text-shadow: 0 0 2px greenyellow;
+}
+
+.explore h3{
+    font-size: 20px;
+}
+
+.btns{
+    margin-left: 80px;
+}
+
+.btns button{
+    background: none;
+    color: black;
+    border: none;
+    margin: 25px;
+    background-color: rgb(145, 191, 75);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.hk:hover{
+    scale: 1.1;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgb(145, 191, 75);
+}
+
+.btns img{
+    height: 20px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.github img{
+    height: 35px;
+    cursor: pointer;
+    width: 30px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.linkdin img{
+    height: 30px;
+    cursor: pointer;
+    width: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.right{
+    width: 70%;
+}
+.coding-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coding-image img{
+    width: 50%;
+    box-shadow: 0 0 50px rgb(145, 191, 75);
+    height: auto;
+    display: flex;
+    border-radius: 50%;
+    display: block;
+}
+
+.my-img:hover{
+    box-shadow: 0 0 50px #fff;
+    transition: 0.3s;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+
+
+
+
+/*media query*/
+@media (max-width: 843px) {
+    .Main_page{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 800px;
+    }
+    .right{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .left h1{
+        font-size: 32px;
+    }
+    .left h2{
+        font-size: 28px;
+    }
+}
+@media (max-width: 520px) {
+    .left h1{
+        font-size: 30px;
+        margin-top: 170px;
+        margin-left: 30px;
+    }
+    .left h2{
+        font-size: 22px;
+        margin-left: 30px;
+    }
+    .typing{
+        font-size: 18px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .typing h3{
+        margin-top: 2px;
+        font-size: 18px;
+    }
+    .left p{
+        font-size: 11px;
+        margin-left: 30px;
+    }
+
+    .explore{
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    
+    .explore h3{
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .btns{
+        margin-left:35px;
+    }
+
+    .btns button{
+        margin-left: -5px;
+    }
+    
+    
+}

@@ -1,0 +1,48 @@
+.about{
+    height: 750px;
+    display: flex;
+    width: auto;
+}
+.left-side{
+    height: 100%;
+    width: 40%;
+}
+
+.left-side img{
+    margin-top: 140px;
+    height: 60%;
+    width: auto;
+    margin-left: 180px;
+}
+
+.right-side{
+    height: 100%;
+    width: 60%;
+}
+
+.content{
+    display: flex;
+    color: white;
+    margin-top: 120px;
+    margin-left: 400px;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-right: 20px;
+    text-shadow: 0 0 10px rgb(145, 191, 75);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media (max-width: 843px) {
+    .left-side{
+        display: none;
+    }
+    .right-side{
+        width: 100%;
+    }
+    .content{
+        display: none;
+    }
+}

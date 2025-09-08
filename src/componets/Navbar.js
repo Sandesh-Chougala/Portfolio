@@ -16,13 +16,13 @@ class Navbar extends React.Component {
             <img src="./assets/icons/menu-btn.png" alt="Menu"></img>
           </button>
           <div className={`hide-links ${this.state.menuOpen ? "show" : ""}`}>
-            <a id="home" href="#home">
+            <a id="home" href="#Home">
               Home
             </a>
-            <a id="About" href="#About">
+            <a id="About" href="#about">
               About
             </a>
-            <a id="portfolio" href="#portfolio">
+            <a id="portfolio" href="./#portfolio">
               Portfolio
             </a>
             <a id="contact" href="#contact">
@@ -31,13 +31,13 @@ class Navbar extends React.Component {
           </div>
         </div>
         <div className="nav-head">
-          <a href="#home">Mr.Sandesh</a>
+          <a href="#Home">Mr.Sandesh</a>
         </div>
         <div className="nav-links">
-          <a id="home" href="#home">
+          <a id="home" href="#Home">
             Home
           </a>
-          <a id="About" href="#About">
+          <a id="About" href="#about">
             About
           </a>
           <a id="portfolio" href="#portfolio">

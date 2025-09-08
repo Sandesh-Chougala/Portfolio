@@ -44,6 +44,8 @@
     margin-left: 22px;
     margin-right: 22px;
     transition: color 0.3s;
+    text-decoration: none;
+    color: inherit;
     padding-bottom: 5px;
 }
 #home:hover{
@@ -62,6 +64,10 @@
   border-bottom: 3px solid orangered;
 }
 
+.nav-head a{
+  text-decoration: none;
+    color: inherit;
+}
 
 #show {
   height: 50px;
@@ -78,6 +84,7 @@
   height: 760px;
   top: 80px;
   left: -250px;
+  position: fixed;
   width: 160px;
   color: white;
   align-items: center;
@@ -99,7 +106,8 @@
   margin-top: 50px;
   font-size: 20px;
   font-weight: 500;
-  color: white;
+  text-decoration: none;
+  color: inherit;
 }
 
 .menu {

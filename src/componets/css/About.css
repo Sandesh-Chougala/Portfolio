@@ -1,5 +1,5 @@
 .about{
-    height: 750px;
+    height: 780px;
     display: flex;
     width: auto;
 }
@@ -9,13 +9,20 @@
 }
 
 .left-side img{
-    margin-top: 150px;
-    margin-left: 200px;
+    width: auto;
+    height: 740px;
+    margin-left: 40px;
+}
+
+.content-2{
+    margin-right: 20px;
 }
 
 .right-side p{
     color: white;
-    font-size: 28px;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
     margin-top: 40px;
     margin-left: 200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,13 +35,18 @@
     margin-right: 25px;
     text-decoration: none;
     color: black;
-    padding: 15px;
+    padding: 17px;
     border: none;
     background-color: rgb(145, 191, 75);
 }
 
+.hk:hover{
+    cursor: pointer;
+    color: red;
+}
+
 .social{
-    margin-left: 320px;
+    margin-left: 360px;
     margin-top: 50px;
 }
 
@@ -55,7 +67,7 @@
 .content{
     display: flex;
     color: white;
-    margin-top: 180px;
+    margin-top: 120px;
     margin-left: 380px;
 }
 

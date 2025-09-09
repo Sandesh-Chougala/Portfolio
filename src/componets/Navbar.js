@@ -22,7 +22,7 @@ class Navbar extends React.Component {
             <a id="About" href="#about">
               About
             </a>
-            <a id="portfolio" href="./#portfolio">
+            <a id="portfolio" href="#Portfolio">
               Portfolio
             </a>
             <a id="contact" href="#contact">
@@ -40,7 +40,7 @@ class Navbar extends React.Component {
           <a id="About" href="#about">
             About
           </a>
-          <a id="portfolio" href="#portfolio">
+          <a id="portfolio" href="#Portfolio">
             Portfolio
           </a>
           <a id="contact" href="#contact">

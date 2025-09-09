@@ -13,16 +13,50 @@
     margin-left: 200px;
 }
 
+.right-side p{
+    color: white;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hk{
+    height: 80px;
+    width: 160px;
+    border-radius: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: none;
+    background-color: rgb(145, 191, 75);
+}
+
+.social{
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+
+.hk img{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
 .right-side{
     height: 100%;
     width: 60%;
 }
 
+
+
 .content{
     display: flex;
     color: white;
-    margin-top: 120px;
-    margin-left: 400px;
+    margin-top: 180px;
+    margin-left: 380px;
 }
 
 .content h1{

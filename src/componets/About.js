@@ -14,10 +14,13 @@ class About extends React.Component {
             <h1>Me</h1>
           </div>
           <p>
-            Hii My self, Sandesh I'm a FullStack Developer<br></br>
-            I'm From Belagavi,Karnataka,India <br></br>I Buid Modern,powefull
-            and Responsive Web Sites<br></br>Using
-            HTML,CSS,JS,React,Next.js,Python and Java
+            ize in building modern, powerful, and responsive websites using:
+            HTML • CSS • JavaScript • React • Next.js • Python • Java Whether
+            it's crafting sleek user interfaces or integrating robust backend
+            logic, I love turning ideas into interactive, user-friendly
+            experiences. My goal is to create digital spaces that are not only
+            technically sound but also inspiring and welcoming—especially for
+            students and academic communities.
           </p>
           <div className="social">
             <a

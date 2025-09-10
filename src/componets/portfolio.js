@@ -1,83 +1,63 @@
-import React, { Component } from "react";
+import React from "react";
 import "./css/portfolio.css";
 
-class Portfolio extends Component {
-  state = {
-    activeSection: "projects", // default section
-  };
-
-  showSection = (section) => {
-    this.setState({ activeSection: section });
-  };
-
+class Portfolio extends React.Component {
+  state = {};
   render() {
-    const { activeSection } = this.state;
-
     return (
-      <div className="portfolio">
+      <div className="portfolio" id="Portfolio">
         <div className="head">
           <h1>My</h1>
           <h1 style={{ color: "rgba(141, 214, 31, 1)" }}>Portfolio</h1>
         </div>
 
         <div className="select_menu">
-          <button
-            className={`menu-btn ${
-              activeSection === "projects" ? "active" : ""
-            }`}
-            onClick={() => this.showSection("projects")}
-          >
+          <button className="project" id="project">
             Projects
           </button>
-          <button
-            className={`menu-btn ${
-              activeSection === "certification" ? "active" : ""
-            }`}
-            onClick={() => this.showSection("certification")}
-          >
+          <button className="certification" id="certification">
             Certification
           </button>
-          <button
-            className={`menu-btn ${
-              activeSection === "techStack" ? "active" : ""
-            }`}
-            onClick={() => this.showSection("techStack")}
-          >
+          <button className="tech-stack" id="tech_stack">
             Tech Stack
           </button>
         </div>
 
-        {activeSection === "projects" && (
-          <div className="projects">
-            <h2>Projects</h2>
-            <p>
-              Showcase your React apps, academic pages, or anything inspiring.
-            </p>
+        <div className="awards" id="awards">
+          <div className="award">
+            <img
+              src="./assets/certifications/ai.png"
+              alt="GEN AI Certification"
+            />
           </div>
-        )}
-
-        {activeSection === "certification" && (
-          <div className="certification">
-            <h2>Certifications</h2>
-            <div className="awards">
-              {["ai", "react", "js", "html", "css", "hacking"].map((cert) => (
-                <div className="award" key={cert}>
-                  <img
-                    src={`./assets/certifications/${cert}.png`}
-                    alt={`${cert.toUpperCase()} Certification`}
-                  />
-                </div>
-              ))}
-            </div>
+          <div className="award">
+            <img
+              src="./assets/certifications/react.png"
+              alt="React Certification"
+            />
           </div>
-        )}
-
-        {activeSection === "techStack" && (
-          <div className="tech-stack">
-            <h2>Tech Stack</h2>
-            <p>React, JavaScript, HTML, CSS, Python — and growing!</p>
+          <div className="award">
+            <img src="./assets/certifications/js.png" alt="JS Certification" />
           </div>
-        )}
+          <div className="award">
+            <img
+              src="./assets/certifications/html.png"
+              alt="HTML Certification"
+            />
+          </div>
+          <div className="award">
+            <img
+              src="./assets/certifications/css.png"
+              alt="CSS Certification"
+            />
+          </div>
+          <div className="award">
+            <img
+              src="./assets/certifications/hacking.jpg"
+              alt="EHCR Certification"
+            />
+          </div>
+        </div>
       </div>
     );
   }

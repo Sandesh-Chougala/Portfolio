@@ -4,6 +4,7 @@ import "./css/portfolio.css";
 function Portfolio() {
   function project() {
     const project = document.getElementById("project");
+    const projects = document.getElementById("projects");
     const certification = document.getElementById("certification");
     const techStack = document.getElementById("tech_stack");
     const awards = document.getElementById("awards");
@@ -11,15 +12,18 @@ function Portfolio() {
     certification.style.backgroundColor = "transparent";
     techStack.style.backgroundColor = "transparent";
     awards.style.display = "none";
+    projects.style.display = "block";
   }
 
   function certification() {
     const certification = document.getElementById("certification");
     const project = document.getElementById("project");
+    const projects = document.getElementById("projects");
     const techStack = document.getElementById("tech_stack");
     const awards = document.getElementById("awards");
     project.style.backgroundColor = "transparent";
     awards.style.display = "flex";
+    projects.style.display = "none";
     certification.style.backgroundColor = "rgba(141, 214, 31, 1)";
     techStack.style.backgroundColor = "transparent";
   }
@@ -27,10 +31,12 @@ function Portfolio() {
   function techStack() {
     const techStack = document.getElementById("tech_stack");
     const awards = document.getElementById("awards");
+    const projects = document.getElementById("projects");
     const project = document.getElementById("project");
     const certification = document.getElementById("certification");
     project.style.backgroundColor = "transparent";
     awards.style.display = "none";
+    projects.style.display = "none";
     certification.style.backgroundColor = "transparent";
     techStack.style.backgroundColor = "rgba(141, 214, 31, 1)";
   }
@@ -88,6 +94,9 @@ function Portfolio() {
             alt="EHCR Certification"
           />
         </div>
+      </div>
+      <div className="projects" id="projects">
+        <div className="project1"></div>
       </div>
     </div>
   );

@@ -64,3 +64,12 @@
   transition: 1s;
   width: auto;
 }
+/*projects stylesling*/
+.projects {
+  background-color: blue;
+  height: 470px;
+  border-radius: 15px;
+  width: 80%;
+  margin-left: 150px;
+  margin-top: 50px;
+}

@@ -107,7 +107,10 @@ function Portfolio() {
               <img src="./assets/icons/github.svg" alt="github img"></img>Github
             </a>
             <a href="#" alt="demo-link" className="redirect">
-              <img src="./assets/icons/redirect.png" alt="github img"></img>
+              <img
+                src="./assets/icons/white-redirect.png"
+                alt="github img"
+              ></img>
               Demo
             </a>
           </div>

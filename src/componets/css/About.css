@@ -1,92 +1,88 @@
-.about{
-    height: 780px;
-    display: flex;
-    width: auto;
+.about {
+  height: 780px;
+  display: flex;
+  width: auto;
 }
-.left-side{
-    height: 100%;
-    width: 40%;
-}
-
-.left-side img{
-    width: auto;
-    height: 740px;
-    margin-left: 40px;
+.left-side {
+  height: 100%;
+  width: 40%;
 }
 
-.content-2{
-    margin-right: 20px;
+.left-side img {
+  width: auto;
+  height: 740px;
+  margin-left: 40px;
 }
 
-.right-side p{
-    color: white;
-    display: flex;
-    gap: 20px;
-    font-size: 25px;
-    margin-top: 40px;
-    margin-left: 200px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.content-2 {
+  margin-right: 20px;
 }
 
-.hk{
-    height: 80px;
-    width: 160px;
-    border-radius: 10px;
-    margin-right: 25px;
-    text-decoration: none;
-    color: black;
-    padding: 17px;
-    border: none;
-    background-color: rgb(145, 191, 75);
+.right-side p {
+  color: white;
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 200px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.hk:hover{
-    cursor: pointer;
-    color: red;
+.hk {
+  height: 80px;
+  width: 160px;
+  border-radius: 10px;
+  margin-right: 25px;
+  text-decoration: none;
+  color: black;
+  padding: 17px;
+  border: none;
+  background-color: rgb(145, 191, 75);
 }
 
-.social{
-    margin-left: 360px;
-    margin-top: 50px;
+.hk:hover {
+  cursor: pointer;
+  color: red;
 }
 
-
-.hk img{
-    height: 20px;
-    width: 20px;
-    margin-left: 10px;
+.social {
+  margin-left: 360px;
+  margin-top: 50px;
 }
 
-.right-side{
-    height: 100%;
-    width: 60%;
+.hk img {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
 }
 
-
-
-.content{
-    display: flex;
-    color: white;
-    margin-top: 120px;
-    margin-left: 380px;
+.right-side {
+  height: 100%;
+  width: 60%;
 }
 
-.content h1{
-    font-size: 50px;
-    margin-right: 20px;
-    text-shadow: 0 0 10px rgb(145, 191, 75);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.content {
+  display: flex;
+  color: white;
+  margin-top: 120px;
+  margin-left: 380px;
 }
 
+.content h1 {
+  font-size: 50px;
+  margin-right: 20px;
+  text-shadow: 0 0 10px rgb(145, 191, 75);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 @media (max-width: 843px) {
-    .left-side{
-        display: none;
-    }
-    .right-side{
-        width: 100%;
-    }
-    .content{
-        display: none;
-    }
+  .left-side {
+    display: none;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .content {
+    display: none;
+  }
 }

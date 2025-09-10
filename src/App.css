@@ -2,9 +2,20 @@
   text-align: center;
 }
 
-html{
+html {
   scroll-behavior: smooth;
+}
 
+.certification {
+  background-color: rgba(141, 214, 31, 1);
+  color: black;
+}
+.certification-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.certification-item {
+  margin: 10px;
 }
 
 .App-logo {
@@ -29,8 +40,8 @@ html{
   color: white;
 }
 
-body{
-  background-color: #230A3E;
+body {
+  background-color: #230a3e;
 }
 
 .App-link {

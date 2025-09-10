@@ -64,12 +64,57 @@
   transition: 1s;
   width: auto;
 }
+#project {
+  background-color: rgba(141, 214, 31, 1);
+}
+
 /*projects stylesling*/
 .projects {
-  background-color: blue;
   height: 470px;
   border-radius: 15px;
   width: 80%;
   margin-left: 150px;
   margin-top: 50px;
+}
+.project1 {
+  height: 200px;
+  border-radius: 25px;
+  width: 600px;
+  left: 180px;
+  position: absolute;
+  top: 1980px;
+  background-color: #5104a4d3;
+  box-shadow: 0 0 20px rgba(141, 214, 31, 1);
+}
+.project1 h1 {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 30px;
+  color: rgb(49, 255, 17);
+  margin-top: 20px;
+}
+
+.project1 p {
+  font-size: 20px;
+  margin-left: 30px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.btn {
+  background-color: transparent;
+  margin-left: 250px;
+  margin-bottom: 10px;
+}
+.btn img {
+  width: auto;
+  height: 30px;
+  padding-right: 10px;
+}
+.redirect img {
+  margin-left: 40px;
 }

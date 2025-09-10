@@ -96,7 +96,22 @@ function Portfolio() {
         </div>
       </div>
       <div className="projects" id="projects">
-        <div className="project1"></div>
+        <div className="project1">
+          <h1>Portfolio</h1>
+          <p>
+            It's a web site, That's Provide My information like (My Projects,
+            Certification,Skills etc.,) and also provide My Contact details.
+          </p>
+          <div className="btn">
+            <a href="#" alt="github-link">
+              <img src="./assets/icons/github.svg" alt="github img"></img>Github
+            </a>
+            <a href="#" alt="demo-link" className="redirect">
+              <img src="./assets/icons/redirect.png" alt="github img"></img>
+              Demo
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

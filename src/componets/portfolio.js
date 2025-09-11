@@ -103,7 +103,10 @@ function Portfolio() {
             Certification,Skills etc.,) and also provide My Contact details.
           </p>
           <div className="btn">
-            <a href="#" alt="github-link">
+            <a
+              href="https://github.com/Sandesh-Chougala/Portfolio"
+              alt="github-link"
+            >
               <img src="./assets/icons/github.svg" alt="github img"></img>Github
             </a>
             <a href="#" alt="demo-link" className="redirect">

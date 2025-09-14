@@ -39,20 +39,20 @@
   margin-bottom: 20px;
   line-height: 1.6;
 }
-
-.typing  h3{
-  margin-left: 35%;
+    
+.typing h3{
+  margin-left: 250px;
+  margin-right: 10px;
 }
 
 .typing {
   margin: 15px 0;
   color: white;
   display: flex;
+  font-size: 25px;
 }
 
-ypewriter-text {
-  font-size: 40px;
-}
+
 
 .explore h3 {
   font-size: clamp(14px, 2vw, 20px);
@@ -106,7 +106,7 @@ ypewriter-text {
 }
 
 .coding-image img {
-  max-width: 70%;
+  max-width: 50%;
   height: auto;
   border-radius: 50%;
   box-shadow: 0 0 50px rgb(145, 191, 75);

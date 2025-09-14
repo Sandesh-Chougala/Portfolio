@@ -58,6 +58,7 @@
 .awards {
   display: flex;
   flex-wrap: wrap;
+  display: none;
   gap: 20px;
   justify-content: center;
   align-items: center;

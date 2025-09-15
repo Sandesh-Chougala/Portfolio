@@ -79,4 +79,7 @@
   .left-side {
     display: none;
   }
+  .content{
+    margin-left: 90px;
+  }
 }

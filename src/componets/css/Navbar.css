@@ -27,7 +27,12 @@
   color: rgb(155, 239, 30);
 }
 
-.nav-head {
+.nav-head {.nav-links {
+    display: none;
+  }
+  #show {
+    display: block;
+  }
   font-size: clamp(20px, 4vw, 32px);
   color: rgb(155, 239, 30);
   text-shadow: 0 0 12px rgba(145, 191, 75, 0.8);
@@ -104,3 +109,11 @@
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .nav-bar {
+    padding: 0 10px;
+    width: 100%;
+  }
+}
+
+

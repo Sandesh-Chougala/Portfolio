@@ -124,3 +124,13 @@
     display: none;
   }
 }
+
+@media (max-width: 576px) {
+  .typing h3{
+    margin-left: 60px;
+    font-size: 18px;
+  }
+  .typing {
+    font-size: 18px;
+  }
+}

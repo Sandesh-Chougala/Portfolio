@@ -29,10 +29,10 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>PHP</li>
+                <li>React</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>MySQL</li>
+                <li>TypeScript</li>
               </ul>
             </footer>
           </div>

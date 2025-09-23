@@ -16,6 +16,8 @@ export const Container = styled.section`
     }
   }
 
+  
+
   .contacts{
     display: flex;
     align-items: center;

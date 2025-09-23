@@ -35,8 +35,12 @@ export function About() {
           <div className="education">
             <h3>Education:</h3>
             <h4> Diploma in Computer Science (CSE)</h4>
-            <p>Government Polytechnic Muhol,Karnataka | July 2026 - Present</p>
+            <p>Government Polytechnic Mudhol,Karnataka | July 2026 - Present</p>
             <p>8.59 CGPA</p>
+            <br></br>
+            <h4> High School</h4>
+            <p>M K H S Bavan Soundatti,Karnataka | March 2022 - Complete</p>
+            <p>77.6%</p>  
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
